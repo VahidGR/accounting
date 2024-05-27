@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C70D8A032BE4DE4900A8DFA4 /* EmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D8A022BE4DE4900A8DFA4 /* EmojiTextField.swift */; };
+		C70D8A052BE4E07900A8DFA4 /* CollectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D8A042BE4E07900A8DFA4 /* CollectionScreen.swift */; };
+		C70D8A082BE4E11400A8DFA4 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D8A072BE4E11400A8DFA4 /* CurrencyFormatter.swift */; };
+		C70D8A0A2BE4E18300A8DFA4 /* CollectionIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D8A092BE4E18300A8DFA4 /* CollectionIntent.swift */; };
+		C70D8A0C2BE5044900A8DFA4 /* SelectedCollectionListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D8A0B2BE5044900A8DFA4 /* SelectedCollectionListScreen.swift */; };
+		C70D8A0E2BE594E000A8DFA4 /* SelectedCollectionIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D8A0D2BE594E000A8DFA4 /* SelectedCollectionIntent.swift */; };
+		C70D8A112BE6403100A8DFA4 /* RemoteState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D8A102BE6403100A8DFA4 /* RemoteState.swift */; };
+		C73E7FDA2BE2790E0031EDAA /* vapor_practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E7FD92BE2790E0031EDAA /* vapor_practiceApp.swift */; };
+		C73E7FDC2BE2790E0031EDAA /* ContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E7FDB2BE2790E0031EDAA /* ContentScreen.swift */; };
+		C73E7FDE2BE279100031EDAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73E7FDD2BE279100031EDAA /* Assets.xcassets */; };
+		C73E7FE22BE279100031EDAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73E7FE12BE279100031EDAA /* Preview Assets.xcassets */; };
+		C73E7FEC2BE279100031EDAA /* vapor_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E7FEB2BE279100031EDAA /* vapor_practiceTests.swift */; };
+		C73E80062BE279230031EDAA /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E80052BE279230031EDAA /* APIClient.swift */; };
+		C73E80082BE279E00031EDAA /* URLRequest+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E80072BE279E00031EDAA /* URLRequest+Init.swift */; };
+		C73E80102BE287790031EDAA /* ContentIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E800F2BE287790031EDAA /* ContentIntent.swift */; };
+		C73E80132BE28F360031EDAA /* RemoteResponderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E80122BE28F360031EDAA /* RemoteResponderView.swift */; };
+		C73E80152BE28F960031EDAA /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E80142BE28F960031EDAA /* TableView.swift */; };
+		C73E80172BE2B41D0031EDAA /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E80162BE2B41D0031EDAA /* Expense.swift */; };
+		C73E801A2BE2B5290031EDAA /* ExpenseDataConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E80192BE2B5290031EDAA /* ExpenseDataConfiguration.swift */; };
+		C73E801C2BE2B8830031EDAA /* ListItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E801B2BE2B8830031EDAA /* ListItemModel.swift */; };
+		C73E801E2BE30D7F0031EDAA /* SelectedExpenseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E801D2BE30D7F0031EDAA /* SelectedExpenseScreen.swift */; };
+		C73E80202BE30DF60031EDAA /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E801F2BE30DF60031EDAA /* AddButton.swift */; };
+		C73E80222BE30E1A0031EDAA /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E80212BE30E1A0031EDAA /* Navigation.swift */; };
+		C73E80242BE30E300031EDAA /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E80232BE30E300031EDAA /* ListItem.swift */; };
+		C74668C52BE3237C00544B48 /* ExpenseIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74668C42BE3237C00544B48 /* ExpenseIntent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C73E7FE82BE279100031EDAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73E7FCE2BE2790E0031EDAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C73E7FD52BE2790E0031EDAA;
+			remoteInfo = "vapor-practice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C70D8A022BE4DE4900A8DFA4 /* EmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTextField.swift; sourceTree = "<group>"; };
+		C70D8A042BE4E07900A8DFA4 /* CollectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionScreen.swift; sourceTree = "<group>"; };
+		C70D8A072BE4E11400A8DFA4 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		C70D8A092BE4E18300A8DFA4 /* CollectionIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionIntent.swift; sourceTree = "<group>"; };
+		C70D8A0B2BE5044900A8DFA4 /* SelectedCollectionListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCollectionListScreen.swift; sourceTree = "<group>"; };
+		C70D8A0D2BE594E000A8DFA4 /* SelectedCollectionIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCollectionIntent.swift; sourceTree = "<group>"; };
+		C70D8A102BE6403100A8DFA4 /* RemoteState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteState.swift; sourceTree = "<group>"; };
+		C73E7FD62BE2790E0031EDAA /* vapor-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vapor-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73E7FD92BE2790E0031EDAA /* vapor_practiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vapor_practiceApp.swift; sourceTree = "<group>"; };
+		C73E7FDB2BE2790E0031EDAA /* ContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentScreen.swift; sourceTree = "<group>"; };
+		C73E7FDD2BE279100031EDAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C73E7FDF2BE279100031EDAA /* vapor_practice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vapor_practice.entitlements; sourceTree = "<group>"; };
+		C73E7FE12BE279100031EDAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C73E7FE72BE279100031EDAA /* vapor-practiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vapor-practiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73E7FEB2BE279100031EDAA /* vapor_practiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vapor_practiceTests.swift; sourceTree = "<group>"; };
+		C73E80052BE279230031EDAA /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C73E80072BE279E00031EDAA /* URLRequest+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Init.swift"; sourceTree = "<group>"; };
+		C73E80092BE283430031EDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C73E800F2BE287790031EDAA /* ContentIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentIntent.swift; sourceTree = "<group>"; };
+		C73E80122BE28F360031EDAA /* RemoteResponderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteResponderView.swift; sourceTree = "<group>"; };
+		C73E80142BE28F960031EDAA /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		C73E80162BE2B41D0031EDAA /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		C73E80192BE2B5290031EDAA /* ExpenseDataConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDataConfiguration.swift; sourceTree = "<group>"; };
+		C73E801B2BE2B8830031EDAA /* ListItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemModel.swift; sourceTree = "<group>"; };
+		C73E801D2BE30D7F0031EDAA /* SelectedExpenseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedExpenseScreen.swift; sourceTree = "<group>"; };
+		C73E801F2BE30DF60031EDAA /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		C73E80212BE30E1A0031EDAA /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		C73E80232BE30E300031EDAA /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		C74668C42BE3237C00544B48 /* ExpenseIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseIntent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C73E7FD32BE2790E0031EDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73E7FE42BE279100031EDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C70D8A062BE4E10900A8DFA4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C70D8A072BE4E11400A8DFA4 /* CurrencyFormatter.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C70D8A0F2BE6402600A8DFA4 /* VI */ = {
+			isa = PBXGroup;
+			children = (
+				C70D8A102BE6403100A8DFA4 /* RemoteState.swift */,
+			);
+			path = VI;
+			sourceTree = "<group>";
+		};
+		C73E7FCD2BE2790E0031EDAA = {
+			isa = PBXGroup;
+			children = (
+				C73E7FD82BE2790E0031EDAA /* vapor-practice */,
+				C73E7FEA2BE279100031EDAA /* vapor-practiceTests */,
+				C73E7FD72BE2790E0031EDAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C73E7FD72BE2790E0031EDAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C73E7FD62BE2790E0031EDAA /* vapor-practice.app */,
+				C73E7FE72BE279100031EDAA /* vapor-practiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C73E7FD82BE2790E0031EDAA /* vapor-practice */ = {
+			isa = PBXGroup;
+			children = (
+				C73E80092BE283430031EDAA /* Info.plist */,
+				C73E7FD92BE2790E0031EDAA /* vapor_practiceApp.swift */,
+				C70D8A0F2BE6402600A8DFA4 /* VI */,
+				C70D8A062BE4E10900A8DFA4 /* Utility */,
+				C73E80182BE2B5160031EDAA /* DataConfiguration */,
+				C73E80112BE28F2C0031EDAA /* ViewModifier */,
+				C73E800E2BE2876C0031EDAA /* Intent */,
+				C73E800D2BE287660031EDAA /* View */,
+				C73E800A2BE2868C0031EDAA /* Model */,
+				C73E80042BE279160031EDAA /* Network */,
+				C73E7FDD2BE279100031EDAA /* Assets.xcassets */,
+				C73E7FDF2BE279100031EDAA /* vapor_practice.entitlements */,
+				C73E7FE02BE279100031EDAA /* Preview Content */,
+			);
+			path = "vapor-practice";
+			sourceTree = "<group>";
+		};
+		C73E7FE02BE279100031EDAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C73E7FE12BE279100031EDAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C73E7FEA2BE279100031EDAA /* vapor-practiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C73E7FEB2BE279100031EDAA /* vapor_practiceTests.swift */,
+			);
+			path = "vapor-practiceTests";
+			sourceTree = "<group>";
+		};
+		C73E80042BE279160031EDAA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C73E80052BE279230031EDAA /* APIClient.swift */,
+				C73E80072BE279E00031EDAA /* URLRequest+Init.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C73E800A2BE2868C0031EDAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C73E80162BE2B41D0031EDAA /* Expense.swift */,
+				C73E801B2BE2B8830031EDAA /* ListItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C73E800D2BE287660031EDAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C73E80272BE30E9F0031EDAA /* Navigation */,
+				C73E80262BE30E8E0031EDAA /* Subview */,
+				C73E80252BE30E500031EDAA /* Screen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C73E800E2BE2876C0031EDAA /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				C73E800F2BE287790031EDAA /* ContentIntent.swift */,
+				C70D8A092BE4E18300A8DFA4 /* CollectionIntent.swift */,
+				C70D8A0D2BE594E000A8DFA4 /* SelectedCollectionIntent.swift */,
+				C74668C42BE3237C00544B48 /* ExpenseIntent.swift */,
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
+		C73E80112BE28F2C0031EDAA /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				C73E80122BE28F360031EDAA /* RemoteResponderView.swift */,
+				C73E80142BE28F960031EDAA /* TableView.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		C73E80182BE2B5160031EDAA /* DataConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				C73E80192BE2B5290031EDAA /* ExpenseDataConfiguration.swift */,
+			);
+			path = DataConfiguration;
+			sourceTree = "<group>";
+		};
+		C73E80252BE30E500031EDAA /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C73E7FDB2BE2790E0031EDAA /* ContentScreen.swift */,
+				C70D8A042BE4E07900A8DFA4 /* CollectionScreen.swift */,
+				C70D8A0B2BE5044900A8DFA4 /* SelectedCollectionListScreen.swift */,
+				C73E801D2BE30D7F0031EDAA /* SelectedExpenseScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		C73E80262BE30E8E0031EDAA /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				C73E801F2BE30DF60031EDAA /* AddButton.swift */,
+				C73E80232BE30E300031EDAA /* ListItem.swift */,
+				C70D8A022BE4DE4900A8DFA4 /* EmojiTextField.swift */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		C73E80272BE30E9F0031EDAA /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C73E80212BE30E1A0031EDAA /* Navigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C73E7FD52BE2790E0031EDAA /* vapor-practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73E7FFB2BE279100031EDAA /* Build configuration list for PBXNativeTarget "vapor-practice" */;
+			buildPhases = (
+				C73E7FD22BE2790E0031EDAA /* Sources */,
+				C73E7FD32BE2790E0031EDAA /* Frameworks */,
+				C73E7FD42BE2790E0031EDAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vapor-practice";
+			productName = "vapor-practice";
+			productReference = C73E7FD62BE2790E0031EDAA /* vapor-practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C73E7FE62BE279100031EDAA /* vapor-practiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73E7FFE2BE279100031EDAA /* Build configuration list for PBXNativeTarget "vapor-practiceTests" */;
+			buildPhases = (
+				C73E7FE32BE279100031EDAA /* Sources */,
+				C73E7FE42BE279100031EDAA /* Frameworks */,
+				C73E7FE52BE279100031EDAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73E7FE92BE279100031EDAA /* PBXTargetDependency */,
+			);
+			name = "vapor-practiceTests";
+			productName = "vapor-practiceTests";
+			productReference = C73E7FE72BE279100031EDAA /* vapor-practiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C73E7FCE2BE2790E0031EDAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C73E7FD52BE2790E0031EDAA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C73E7FE62BE279100031EDAA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C73E7FD52BE2790E0031EDAA;
+					};
+				};
+			};
+			buildConfigurationList = C73E7FD12BE2790E0031EDAA /* Build configuration list for PBXProject "vapor-practice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C73E7FCD2BE2790E0031EDAA;
+			productRefGroup = C73E7FD72BE2790E0031EDAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C73E7FD52BE2790E0031EDAA /* vapor-practice */,
+				C73E7FE62BE279100031EDAA /* vapor-practiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C73E7FD42BE2790E0031EDAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73E7FE22BE279100031EDAA /* Preview Assets.xcassets in Resources */,
+				C73E7FDE2BE279100031EDAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73E7FE52BE279100031EDAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C73E7FD22BE2790E0031EDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70D8A0E2BE594E000A8DFA4 /* SelectedCollectionIntent.swift in Sources */,
+				C73E80242BE30E300031EDAA /* ListItem.swift in Sources */,
+				C73E7FDC2BE2790E0031EDAA /* ContentScreen.swift in Sources */,
+				C70D8A112BE6403100A8DFA4 /* RemoteState.swift in Sources */,
+				C73E801A2BE2B5290031EDAA /* ExpenseDataConfiguration.swift in Sources */,
+				C73E80132BE28F360031EDAA /* RemoteResponderView.swift in Sources */,
+				C70D8A052BE4E07900A8DFA4 /* CollectionScreen.swift in Sources */,
+				C70D8A0C2BE5044900A8DFA4 /* SelectedCollectionListScreen.swift in Sources */,
+				C73E80102BE287790031EDAA /* ContentIntent.swift in Sources */,
+				C73E801E2BE30D7F0031EDAA /* SelectedExpenseScreen.swift in Sources */,
+				C70D8A082BE4E11400A8DFA4 /* CurrencyFormatter.swift in Sources */,
+				C73E7FDA2BE2790E0031EDAA /* vapor_practiceApp.swift in Sources */,
+				C73E80062BE279230031EDAA /* APIClient.swift in Sources */,
+				C74668C52BE3237C00544B48 /* ExpenseIntent.swift in Sources */,
+				C73E80152BE28F960031EDAA /* TableView.swift in Sources */,
+				C73E80172BE2B41D0031EDAA /* Expense.swift in Sources */,
+				C73E80222BE30E1A0031EDAA /* Navigation.swift in Sources */,
+				C70D8A032BE4DE4900A8DFA4 /* EmojiTextField.swift in Sources */,
+				C73E80082BE279E00031EDAA /* URLRequest+Init.swift in Sources */,
+				C73E801C2BE2B8830031EDAA /* ListItemModel.swift in Sources */,
+				C70D8A0A2BE4E18300A8DFA4 /* CollectionIntent.swift in Sources */,
+				C73E80202BE30DF60031EDAA /* AddButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73E7FE32BE279100031EDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73E7FEC2BE279100031EDAA /* vapor_practiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C73E7FE92BE279100031EDAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C73E7FD52BE2790E0031EDAA /* vapor-practice */;
+			targetProxy = C73E7FE82BE279100031EDAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C73E7FF92BE279100031EDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C73E7FFA2BE279100031EDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C73E7FFC2BE279100031EDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "vapor-practice/vapor_practice.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vapor-practice/Preview Content\"";
+				DEVELOPMENT_TEAM = A5EKHJ2X2S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vapor-practice/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vahidgr.vapor-practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C73E7FFD2BE279100031EDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "vapor-practice/vapor_practice.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vapor-practice/Preview Content\"";
+				DEVELOPMENT_TEAM = A5EKHJ2X2S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vapor-practice/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vahidgr.vapor-practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C73E7FFF2BE279100031EDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5EKHJ2X2S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vahidgr.vapor-practiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vapor-practice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vapor-practice";
+			};
+			name = Debug;
+		};
+		C73E80002BE279100031EDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5EKHJ2X2S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vahidgr.vapor-practiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vapor-practice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vapor-practice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C73E7FD12BE2790E0031EDAA /* Build configuration list for PBXProject "vapor-practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73E7FF92BE279100031EDAA /* Debug */,
+				C73E7FFA2BE279100031EDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73E7FFB2BE279100031EDAA /* Build configuration list for PBXNativeTarget "vapor-practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73E7FFC2BE279100031EDAA /* Debug */,
+				C73E7FFD2BE279100031EDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73E7FFE2BE279100031EDAA /* Build configuration list for PBXNativeTarget "vapor-practiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73E7FFF2BE279100031EDAA /* Debug */,
+				C73E80002BE279100031EDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C73E7FCE2BE2790E0031EDAA /* Project object */;
+}
