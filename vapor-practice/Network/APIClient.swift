@@ -30,14 +30,41 @@ struct APIClient {
     
     func smartFetch<T: Codable>(request: URLRequest, publisher: PassthroughSubject<T, Never>) async throws {
         do {
-            let cached: T = try load(request: request)
-            publisher.send(cached)
+            try restoreCached(request: request, publisher: publisher)
         } catch {
             print(error.localizedDescription)
         }
         
         let remote: T = try await fetch(request: request)
         publisher.send(remote)
+    }
+    
+    /// This is a broken function
+    /// the function signiture should remain the same
+    /// while the implementation should be working fine.
+    /// What is expected? `Payload` should be cached properly
+    /// And then It should be fully accessable via `smartfetch(_:,_:)` method
+    func cacheFirstPostFetch<T: Codable>(
+        request: URLRequest,
+        payload: Data,
+        publisher: PassthroughSubject<T, Never>
+    ) async throws {
+        let cache = URLCache.shared
+        let urlResponse = HTTPURLResponse(
+            url: request.url!,
+            statusCode: 200,
+            httpVersion: nil,
+            headerFields: nil
+        )!
+        let cachedResponse: CachedURLResponse = .init(response: urlResponse, data: payload)
+        cache.storeCachedResponse(cachedResponse, for: request)
+        
+        try await smartFetch(request: request, publisher: publisher)
+    }
+    
+    private func restoreCached<T: Codable>(request: URLRequest, publisher: PassthroughSubject<T, Never>) throws {
+        let cached: T = try load(request: request)
+        publisher.send(cached)
     }
     
 }

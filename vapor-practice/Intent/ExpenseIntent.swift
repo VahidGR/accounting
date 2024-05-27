@@ -13,6 +13,7 @@ final class ExpenseIntent: RemoteIntentProtocol {
     var state: PassthroughSubject<State, Never> = .init()
     private let client: APIClient
     internal let expenseSnapshot: CurrentValueSubject<CreateExpense?, Never>
+    private var cancellables: Set<AnyCancellable>
     
     init(
         client: APIClient = .init(),
@@ -20,6 +21,7 @@ final class ExpenseIntent: RemoteIntentProtocol {
     ) {
         self.client = client
         expenseSnapshot = .init(.init(expense: snapshot))
+        cancellables = .init()
     }
     
     @MainActor
@@ -42,17 +44,28 @@ final class ExpenseIntent: RemoteIntentProtocol {
     
     private func sendExpense(payload: CreateExpense?) async {
         guard let payload else { return }
+        let publisher: PassthroughSubject<[String: String], Never> = .init()
+        
+        publisher.receive(on: DispatchQueue.main)
+            .sink { [weak self] expense in
+                self?.update(state: .content(content: expense))
+            }
+            .store(in: &cancellables)
+        
         do {
             let data = try JSONEncoder().encode(payload)
-            let _: [String: String] = try await client.fetch(
+            
+            try await client.cacheFirstPostFetch(
                 request: .post(
                     .expenseList(category: payload.label),
                     payload: data
-                )
+                ),
+                payload: data,
+                publisher: publisher
             )
         }
         catch {
-            update(state: .failure(error: nil))
+            update(state: .failure(error: error))
         }
     }
     

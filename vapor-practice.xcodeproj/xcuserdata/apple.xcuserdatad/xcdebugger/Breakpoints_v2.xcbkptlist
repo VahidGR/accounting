@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "602578C9-6F63-4517-A8D3-7D09FF9B11D8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F0770C1-5599-4ED5-A82C-87EBB4208697"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vapor-practice/Intent/ExpenseIntent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "sendExpense(payload:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75A81DDF-F72B-4B00-BE96-BA6CF4D35BC8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vapor-practice/Intent/ExpenseIntent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "sendExpense(payload:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75A81DDF-F72B-4B00-BE96-BA6CF4D35BC8 - 74326b4a91b75594"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for vapor_practice.ExpenseIntent.sendExpense(payload: Swift.Optional&lt;vapor_practice.CreateExpense&gt;) async -&gt; ()"
+                  moduleName = "vapor-practice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/accounting/vapor-practice/Intent/ExpenseIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68">
+               </Location>
+               <Location
+                  uuid = "75A81DDF-F72B-4B00-BE96-BA6CF4D35BC8 - 7a24bf4cf8e1bfab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for vapor_practice.ExpenseIntent.sendExpense(payload: Swift.Optional&lt;vapor_practice.CreateExpense&gt;) async -&gt; ()"
+                  moduleName = "vapor-practice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/accounting/vapor-practice/Intent/ExpenseIntent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
